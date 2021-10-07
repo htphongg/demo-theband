@@ -53,6 +53,7 @@ html{
     display: block;
     clear: both;
 }
+
 .col{
     float:left;
     padding-right: 8px;
@@ -201,7 +202,7 @@ html{
 }
 
 #content{
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 #content .about-text{
@@ -367,6 +368,24 @@ html{
     font-size: 24px;
 }
 
+#footer .social-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none; 
+}
+#footer .copy-right a:hover,
+#footer .social-list i:hover{
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#footer .copy-right{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+}
+
+#footer .copy-right a{
+    color: rgba(0, 0, 0, 0.6);
+}
 .modal{
     position: fixed;
     top: 0;
